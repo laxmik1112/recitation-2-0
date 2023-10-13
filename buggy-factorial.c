@@ -29,8 +29,8 @@ int main(int argc, char const *argv[]) {
   /*
    * Compute n!
    */
-  int i, f;
-  for (i = 1; i < n; i++) {
+  int i, f = 1;
+  for (i = 1; i <= n; i++) {
     f *= i;
   }
   printf("%d! = %d\n", n, f);
